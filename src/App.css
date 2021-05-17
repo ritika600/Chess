@@ -1,0 +1,61 @@
+*{
+  margin:0;
+  padding:0;
+}
+#container{
+  min-height:100vh;
+   background-color:rgb(34,34,34);
+  
+}
+#board-container{
+  height: 600px;
+  width: 600px;
+}
+.square{
+  height: 12.5%;
+  width: 12.5%;
+}
+
+
+.square-black{
+  background-color: #B59963;
+}
+.square-white{
+  background-color: #F0D9B5;
+}
+#board-square{
+  height: 100%;
+  width: 100%;
+}
+.piece-container{
+    cursor: grab;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     
+}
+.piece{
+  max-width: 70%;
+  max-height: 70% ;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.vertical-text {
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  font-family: sans-serif;
+  padding: 10px;
+  color: white;
+}
+
+.vertical-text button {
+  margin-top: 20px;
+  cursor: pointer;
+  background: rgb(63, 63, 63);
+  border: 2px solid white;
+  border-radius: 10px;
+
+}
