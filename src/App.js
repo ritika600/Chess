@@ -1,9 +1,7 @@
-import logo from './logo.svg';
 import './App.css';
 import {gameSubject,initGame,resetGame} from './Game';
 import React,{useEffect,useState} from 'react';
 import Board from './Board';
-
 
 function App() {
   const  [board,setBoard] =useState([ ])
