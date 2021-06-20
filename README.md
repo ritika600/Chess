@@ -1,7 +1,7 @@
 
 Check the live demo here-->
 
-https://ritika600.github.io/Airlines-reservation-website/iwt.html
+https://ritika600.github.io/Chess/
 
 
 # Getting Started with Create React App
